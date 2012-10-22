@@ -38,7 +38,6 @@
   * Added function in command, every button can have a different function now.
 * **2012-10-22**
   * Moved Repo to github
-\\
 
 ## Syntax
 ```
@@ -76,7 +75,7 @@ You can see the official Skype button wizard here: [Official Skype Button Wizard
   </tr>
 </table>
 
-===== Example =====
+## Example
 ```
 {{skype>username}}
 {{skype>username,call}}
@@ -88,8 +87,8 @@ You can see the official Skype button wizard here: [Official Skype Button Wizard
 ```
 or different Design
 
-![anim_1](http://zawiki.begincoding.net/~zas/zawiki/lib/exe/fetch.php/tschinz:programming:dw:skype:anim_rectangle.gif]
-![anim_2](http://zawiki.begincoding.net/~zas/zawiki/lib/exe/fetch.php/tschinz:programming:dw:skype:anim_balloon.gif]
+![anim_1](http://zawiki.begincoding.net/~zas/zawiki/lib/exe/fetch.php/tschinz:programming:dw:skype:anim_rectangle.gif)
+![anim_2](http://zawiki.begincoding.net/~zas/zawiki/lib/exe/fetch.php/tschinz:programming:dw:skype:anim_balloon.gif)
 
 ## Possible Problems
 ### Status always "offline"
