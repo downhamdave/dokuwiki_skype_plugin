@@ -1,7 +1,7 @@
 <?php
 /*
  * DokuWiki skype plugin
- * Copyright (C) 2011 Zahno Silvan
+ * 2011 Zahno Silvan
  * Usage:
  *
  * {{skype>username,function}} 
