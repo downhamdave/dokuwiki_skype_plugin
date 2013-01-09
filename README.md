@@ -87,8 +87,8 @@ You can see the official Skype button wizard here: [Official Skype Button Wizard
 ```
 or different Design
 
-![anim_1](http://zawiki.dyndns.org/~zas/zawiki/lib/exe/fetch.php/tschinz:programming:dw:skype:anim_rectangle.gif)
-![anim_2](http://zawiki.dyndns.org/~zas/zawiki/lib/exe/fetch.php/tschinz:programming:dw:skype:anim_balloon.gif)
+![anim_1](http://zawiki.dyndns.org/lib/exe/fetch.php/tschinz:programming:dw:skype:anim_rectangle.gif)
+![anim_2](http://zawiki.dyndns.org/lib/exe/fetch.php/tschinz:programming:dw:skype:anim_balloon.gif)
 
 ## Possible Problems
 ### Status always "offline"
@@ -102,7 +102,7 @@ Click on the button and scroll to the top of the page.
 All documentation for the Skype Plugin is available online at:
 
   * [Dokuwiki Plugin Page](http://dokuwiki.org/plugin:skype)
-  * [ZaWiki Plugin Page](http://zawiki.dyndns.org/~zas/zawiki/doku.php/tschinz:dw_skype)
+  * [ZaWiki Plugin Page](http://zawiki.dyndns.org/doku.php/tschinz:dw_skype)
   * [Github Project Page](https://github.com/tschinz/dokuwiki_skype_plugin)
 
 2011 by Zahno Silvan <zaswiki@gmail.com>
