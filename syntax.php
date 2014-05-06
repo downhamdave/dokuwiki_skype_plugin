@@ -42,7 +42,7 @@ class syntax_plugin_skype extends DokuWiki_Syntax_Plugin {
             'date'   => '2012-10-22',
             'name'   => 'Skype Plugin',
             'desc'   => 'Skype Button',
-            'url'    => 'http://zawiki.dyndns.org/doku.php/tschinz:dw_skype',
+            'url'    => 'http://zawiki.zapto.org/doku.php/tschinz:dw_skype',
         );
     }
 
