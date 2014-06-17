@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <th align="left">Lastupdate</th>
-    <td>2012-10-22</td>
+    <td>2014-06-16</td>
   </tr>
   <tr>
     <th align="left">Tags</th>
@@ -38,6 +38,8 @@
   * Added function in command, every button can have a different function now.
 * **2012-10-22**
   * Moved Repo to github
+* **2014-06-16**
+  * Use new Skype button, works now with Mircdosoft accounts
 
 ## Syntax
 ```
@@ -56,22 +58,17 @@ You can see the official Skype button wizard here: [Official Skype Button Wizard
   <tr>
     <th align="left">Function</th>
     <td>chat</td>
-    <td>click function (chet, sendfile, call, voicemail,userinfo or add)</td>
+    <td>click function (chat, call, dropbdown)</td>
   </tr>
   <tr>
     <th align="left">Size</th>
-    <td>big</td>
-    <td>size if icon (bog or small)</td>
-  </tr>
-  <tr>
-    <th align="left">Content</th>
-    <td>icon+text</td>
-    <td>only icon or icon with text</td>
+    <td>24</td>
+    <td>size of icon in pixel (10, 12, 14, 16, 24, 32)</td>
   </tr>
   <tr>
     <th align="left">Style</th>
-    <td>balloon</td>
-    <td>New or classic design</td>
+    <td>white</td>
+    <td>White or Blue design</td>
   </tr>
 </table>
 
@@ -80,22 +77,17 @@ You can see the official Skype button wizard here: [Official Skype Button Wizard
 {{skype>username}}
 {{skype>username,call}}
 {{skype>username,chat}}
-{{skype>username,sendfile}}
-{{skype>voicemail,username}}
-{{skype>userinfo,username}}
-{{skype>add,username}}
+{{skype>username,dropdown}}
 ```
 or different Design
 
-![anim_1](http://zawiki.zapto.org/lib/exe/fetch.php/tschinz:programming:dw:skype:anim_rectangle.gif)
-![anim_2](http://zawiki.zapto.org/lib/exe/fetch.php/tschinz:programming:dw:skype:anim_balloon.gif)
+![screenshot 1](https://raw.githubusercontent.com/tschinz/dokuwiki_skype_plugin/master/screenshot/skype_screenshot_1.jpg)
+![screenshot 2](https://raw.githubusercontent.com/tschinz/dokuwiki_skype_plugin/master/screenshot/skype_screenshot_2.jpg)
+![screenshot 3](https://raw.githubusercontent.com/tschinz/dokuwiki_skype_plugin/master/screenshot/skype_screenshot_3.jpg)
 
 ## Possible Problems
 ### Status always "offline"
 Then you need to change your privacy settings in Skype: `Options` -> `Privacy` -> `Allow Net Status`
-
-### Nothing happens when I click the button?
-Click on the button and scroll to the top of the page.
 
 ## Documentation
 
@@ -105,4 +97,4 @@ All documentation for the Skype Plugin is available online at:
   * [ZaWiki Plugin Page](http://zawiki.zapto.org/doku.php/tschinz:dw_skype)
   * [Github Project Page](https://github.com/tschinz/dokuwiki_skype_plugin)
 
-2011 by Zahno Silvan <zaswiki@gmail.com>
+2014 by Zahno Silvan <zaswiki@gmail.com>
