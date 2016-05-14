@@ -71,7 +71,7 @@ class syntax_plugin_skype extends DokuWiki_Syntax_Plugin {
     /**
      * Handle the match
      */
-    function handle($match, $state, $pos, &$handler){
+    function handle($match, $state, $pos, DOKU_Handler $handler){
         switch ($state) {
           case DOKU_LEXER_ENTER :
             break;
@@ -91,7 +91,7 @@ class syntax_plugin_skype extends DokuWiki_Syntax_Plugin {
     /**
      * Create output
      */
-    function render($mode, &$renderer, $data) {
+    function render($mode, DOKU_Renderer $renderer, $data) {
         if($mode == 'xhtml'){
             $options['function']  = $this->getConf('function'); // default value
             $options['size']      = $this->getConf('size');
@@ -128,7 +128,7 @@ class syntax_plugin_skype extends DokuWiki_Syntax_Plugin {
                return true;
            }
 
-           $code = '<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>';
+           $code = '<script type="text/javascript" src="https://www.skypeassets.com/i/scom/js/skype-uri.js"></script>';
            $code .= '<div style="display: inline" id="SkypeButton_Call_'.$data.'_1">';
            $code .= '<script type="text/javascript">Skype.ui({';
 
